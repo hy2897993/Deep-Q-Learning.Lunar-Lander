@@ -10,7 +10,7 @@ There are two main parts of code. One is the lunar lander problem solving and pl
 
 Lunar Lander is a sophisticated problem in reinforcement learning, the agent should be trained to know how to land on the landing pad properly. Unlike the learning problems in previous assignments which are discrete MDP, the Lunar Lander has continuous states, which are represented by 8 variables:
 
-> (x, y, x˙, y˙, θ, θ˙, legL, legR)
+- (x, y, x˙, y˙, θ, θ˙, legL, legR)
 
 The state variables x, y are the horizontal and vertical position, and x˙, y˙ are the horizontal and vertical speed. θ, θ˙ are the angle and angular speed of the lander. legL, legR are the binary values to show whether the left or right leg of the lander is touching the ground.
 
